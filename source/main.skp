@@ -1,0 +1,18 @@
+æ A simple Skanderup++ program
+function main() {
+    print("Hello from Skanderup++")
+    
+    int x = 10
+    int y = 20
+    int result = add(x, y)
+    
+    if result > 20 {
+        print("Result is greater than 20")
+    } else {
+        print("Result is 20 or less")
+    }
+}
+
+function add(a, b) {
+    return a + b
+}
